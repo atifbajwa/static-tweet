@@ -5,6 +5,13 @@ import './index.css';
 import Avatar from './Avatar'
 import Author from './Author'
 import Message from './Message'
+import Time from './Time'
+import ReplyButton from './ReplyButton'
+import ReTweetButton from './ReTweetButton'
+import LikeButton from './LikeButton'
+import MoreOptionsButton from './MoreOptionsButton'
+
+
 
 
 
@@ -14,10 +21,16 @@ const Tweet = () => {
         <div className="tweet">
             <Avatar />
             <div className="content">
-                <Author />
+                <Author /><Time />
                 <Message />
+                <div className="buttons">
+                    <ReplyButton />
+                    <ReTweetButton />
+                    <LikeButton />
+                    <MoreOptionsButton />
+                </div>
             </div>
-        </div >
+        </div>
     )
 }
 

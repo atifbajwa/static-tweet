@@ -24,5 +24,24 @@
 
 .handle {
     font-size: 13px;
-    color: #88996a;
+    color: #8898a6;
 }
+
+.time {
+    padding-left: 0.3em;
+    color: #8899a6;
+    }
+    .time::before {
+    content: "\00b7";
+    padding-right: 0.3em;
+    }
+    .buttons {
+    margin-top: 10px;
+    margin-left: 2px;
+    font-size: 1.4em;
+    color: #aab8c2;
+    }
+    .buttons i {
+    width: 80px;
+    }
+    
